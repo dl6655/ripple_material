@@ -22,6 +22,10 @@ public class DemoActivity extends ActionBarActivity implements View.OnClickListe
         findViewById(R.id.ripple_layout_1).setOnClickListener(this);
         findViewById(R.id.ripple_layout_1).setOnLongClickListener(this);
 
+        // xml initialization
+        findViewById(R.id.ripple_layout_3).setOnClickListener(this);
+        findViewById(R.id.ripple_layout_3).setOnLongClickListener(this);
+
         // static initialization
         View view = findViewById(R.id.ripple_layout_2);
          MaterialRippleLayout.on(view)
